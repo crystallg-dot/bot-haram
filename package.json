@@ -5,7 +5,7 @@
   "main": "zeeone.js",
   "license": "MIT",
   "scripts": {
-    "start": "npm install -g pm2 && pm2 start zeeone.js"
+    "start": "npm install -g pm2 && pm2 start zeeone.js && pm2 save && pm2 logs"
    },
   "keywords": [
     "whatsapp",
